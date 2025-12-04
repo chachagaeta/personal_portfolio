@@ -32,34 +32,38 @@ body {
 #about h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    font-size: 65px;
+    font-size: 50px;
     color: #A14045;
-    margin-top: -10px; 
+    margin-top: -70px; 
 }
 
 /* About Me Paragraph */
 #desc {
     padding: 100px;
     font-family: 'Inter', sans-serif;
-    margin-top: -220px;
-    font-size: 35px;
+    margin-top: -200px;
+    font-size: 30px;
     font-weight: 600;
-    margin-right: 800px;
     position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #desc p {
     margin: 0;
+    flex: 1;
+    max-width: 60%;
+    padding-right: 50px;
 }
 
 /* Computer*/
 #desc-image {
-    position: absolute;
-    right: -500px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 300px;
+    width: 250px;
     height: auto;
+    margin-left: 30px;
 }
 
 #projects {
@@ -70,7 +74,7 @@ body {
 #projects h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    font-size: 65px;
+    font-size: 50px;
     color: #A14045;
     margin-top: -10px;
     margin-bottom: 50px;
@@ -78,7 +82,7 @@ body {
 
 /* Project Cards Styling */
 #projects img {
-    width: 450px;
+    width: 300px;
     height: auto;
     margin: 20px;
     border-radius: 10px;
@@ -104,7 +108,7 @@ body {
     left: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    font-size: 65px;
+    font-size: 50px;
     color: #A14045;
     margin: 0;
     z-index: 2;
