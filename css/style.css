@@ -1,5 +1,7 @@
+/* Import Inter font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
+/* Main body styling with gradient background */
 body {
   margin: 0;
   padding: 0;
@@ -10,11 +12,13 @@ body {
   background-attachment: fixed; 
 }
 
+/* Hero section styling */
 #hero {
     padding: 20px; 
     text-align: center; 
 }
 
+/* Hero image responsive styling */
 #hero-image {
     width: 100%; 
     max-width: 2000px; 
@@ -23,6 +27,7 @@ body {
     box-sizing: border-box; /* Include padding in width calculation */
 }
 
+/* About section basic styling */
 #about {
     padding: 100px;
     font-family: 'Inter', sans-serif;
@@ -59,18 +64,19 @@ body {
     padding-right: 50px;
 }
 
-/* Computer*/
+/* Computer pixel art image */
 #desc-image {
     width: 250px;
     height: auto;
     margin-left: 30px;
 }
 
+/* Projects section layout */
 #projects {
     padding: 100px;
     text-align: center;
 }
-/**projects header*/
+/* Projects header styling */
 #projects h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 900;
@@ -91,17 +97,19 @@ body {
     display: inline-block;
 }
 
+/* Hover effect for project cards */
 #projects img:hover {
     transform: scale(1.05);
 }
 
+/* Contact section with layered elements */
 #contact {
     position: relative;
     text-align: center;
     overflow: hidden;
 }
 
-/** contact me header*/
+/* Contact me header positioning */
 #contact h1 {
     position: absolute;
     top: 50px;
@@ -114,6 +122,7 @@ body {
     z-index: 2;
 }
 
+/* Flower background image */
 #flower {
     width: 100%;
     height: 500px;
@@ -123,7 +132,7 @@ body {
     z-index: 1;
 }
 
-/* Social Icons positioned at bottom left*/
+/* Social icons positioned at bottom left */
 #github, #Linkedin {
     position: absolute;
     bottom: 40px;
@@ -134,18 +143,22 @@ body {
     transition: transform 0.3s ease;
 }
 
+/* GitHub icon position */
 #github {
     left: 50px;
 }
 
+/* LinkedIn icon position */
 #Linkedin {
     left: 130px;
 }
 
+/* Hover effects for social icons */
 #github:hover, #Linkedin:hover {
     transform: scale(1.1);
 }
 
+/* Resume download section positioning */
 .resume-section {
     position: absolute;
     bottom: 40px;
@@ -156,6 +169,7 @@ body {
     z-index: 3;
 }
 
+/* Resume download text styling */
 .resume-text {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -163,6 +177,7 @@ body {
     color: #A14045;
 }
 
+/* Resume download button styling */
 #Resume {
     width: 60px;
     height: 60px;
@@ -170,6 +185,7 @@ body {
     transition: transform 0.3s ease;
 }
 
+/* Resume button hover effect */
 #Resume:hover {
     transform: scale(1.1);
 }
