@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
 
-  background-image: url("assets/gradient_test1.png"); 
+  background-image: url("../assets/gradient_test1.png"); 
   background-size: cover;  
   background-repeat: no-repeat;
   background-attachment: fixed; 
